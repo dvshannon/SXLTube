@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    overflow-x: hidden;
+    font-size: 1.15em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ol,
+ul,
+li,
+a {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 65em;
+}
+
+.container-flex {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    font-size: 1.125rem;
+    padding: .75em 1.25em;
+    font-weight: 600;
+    border: none;
+    opacity: .5;
+    transition: 200ms;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: 1;
+}
+// GLOBAL STYLES
